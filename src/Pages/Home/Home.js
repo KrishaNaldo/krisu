@@ -177,22 +177,24 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section id="gallery" className="gallery-section">
-        <div className="section-container">
-          <h2 className="section-title">
-            Cat Gallery
-          </h2>
-          
-          <div className="gallery-grid">
-            {['😺', '😸', '😹', '😻', '🙀', '😿', '😾', '🐱'].map((cat, index) => (
-              <div key={index} className="gallery-item">
-                {cat}
-              </div>
-            ))}
+{/* Gallery Section */}
+<section id="gallery" className="gallery-section">
+  <div className="section-container">
+    <h2 className="section-title">
+      Cat Gallery
+    </h2>
+    
+    <div className="gallery-grid">
+      {Array.from({ length: 8 }, (_, index) => (
+        <div key={index} className={`gallery-item gallery-photo-${index + 1}`}>
+          <div className="gallery-overlay">
+            <span className="gallery-caption">Beautiful Cat {index + 1}</span>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Contact Section */}
       <section id="contact" className="contact-section">
