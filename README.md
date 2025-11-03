@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cat-Portfolio
 
 ## Getting Started with Create React App
@@ -70,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# krisu
+>>>>>>> 566403056996d263f6a0e9fef53c6086629e1434
